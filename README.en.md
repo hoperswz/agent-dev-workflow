@@ -137,17 +137,17 @@ Place `AGENTS.md` in the root directory of your project.
 
 ### Option 1: One-Command Install
 
-Run the following command from the **root of your Git repository**. These commands install the fixed `v1.0.0` release and will not change when later commits are added to the repository.
+Run the following command from the **root of your Git repository**. These commands install the fixed `v1.0.1` release and will not change when later commits are added to the repository.
 
 #### Linux / macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.0/scripts/install.sh | bash -s -- en
+curl -fsSL https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.1/scripts/install.sh | bash -s -- en
 ```
 
 #### Windows PowerShell
 
-$installer = irm https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.0/scripts/install.ps1
+$installer = irm https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.1/scripts/install.ps1
 & ([scriptblock]::Create($installer)) -Lang en
 
 The installers support regular Git repositories and Git worktrees. They will not overwrite an existing `AGENTS.md`, and a failed download is cleaned up without leaving a partial target file.

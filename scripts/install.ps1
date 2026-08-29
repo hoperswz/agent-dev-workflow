@@ -1,4 +1,4 @@
-﻿param(
+param(
     [ValidateSet("zh", "en")]
     [string]$Lang = "zh"
 )
@@ -6,7 +6,7 @@
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 3.0
 
-$version = "v1.0.0"
+$version = "v1.0.1"
 $baseUrl = "https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/$version"
 
 Write-Host "Agent Dev Workflow $version"

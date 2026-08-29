@@ -135,18 +135,18 @@ Git 状态
 
 ### 方式一：一键安装
 
-在需要使用这套工作流的 **Git 项目根目录**执行。以下命令固定安装 `v1.0.0`，不会跟随仓库后续提交发生变化。
+在需要使用这套工作流的 **Git 项目根目录**执行。以下命令固定安装 `v1.0.1`，不会跟随仓库后续提交发生变化。
 
 #### Linux / macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.0/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.1/scripts/install.sh | bash
 ```
 
 #### Windows PowerShell
 
 ```powershell
-$installer = irm https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.0/scripts/install.ps1
+$installer = irm https://raw.githubusercontent.com/hoperswz/agent-dev-workflow/v1.0.1/scripts/install.ps1
 & ([scriptblock]::Create($installer))
 ```
 
