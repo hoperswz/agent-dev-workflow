@@ -300,7 +300,7 @@ tasks/YYYY-MM-DD/YYYY-MM-DD-HH-mm-ss-任务名.md
 ```markdown
 # 任务名称
 
-- 创建日期：YYYY-MM-DD HH:mm:ss
+- 创建日期：YYYY-MM-DD HH:mm:ss UTC±HH:mm
 - 当前阶段：需求澄清 / 执行中 / 受阻 / 待发起人确认 / 已完成
 - 任务发起人：待记录
 - 执行方式：一次性执行（默认）
